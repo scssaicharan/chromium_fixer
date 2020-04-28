@@ -15,7 +15,7 @@ echo "____ _                              _____ _               ____  _
  _ __| |_ ___  __| |
 | '__| __/ _ \/ _` |
 | |  | ||  __/ (_| |
-|_|   \__\___|\__,_|'
+|_|   \__\___|\__,_|"
 echo "Removing distribution provided chromium packages and dependencies..."
 sudo apt purge chromium* chromium-browser* -y -qq && apt autoremove -y -qq
 echo "Enabling PPA support..."
